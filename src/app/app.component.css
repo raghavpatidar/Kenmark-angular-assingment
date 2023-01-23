@@ -1,0 +1,84 @@
+
+.mob{
+    display: block;
+}
+.tab{
+    display: none;
+}
+.desk{
+    display: none;
+}
+
+
+@media (min-width: 400px) {
+    .tab{
+        display: block;
+    }
+    .mob{
+        display: none;
+    }
+    .desk{
+        display: none;
+    }
+    .header {
+        grid-area: header;
+    }
+
+    .menu {
+        grid-area: menu;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .extra {
+        grid-area: extra;
+    }
+
+    .image {
+        grid-area: image;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 70px 5fr repeat(4, 1fr);
+        grid-template-areas:
+            "header header header header"
+            "hero hero hero hero"
+            "menu main main main"
+            "menu main main main"
+            "menu banner banner banner"
+            "menu extra image image";
+    }
+}
+
+@media (min-width: 1000px) {
+    .desk{
+        display: block;
+    }
+    .mob{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+    .grid {
+        grid-template-areas:
+            "header menu menu menu"
+            "hero hero hero hero"
+            "hero hero hero hero"
+            "main main . image"
+            "main main . extra"
+            "banner banner banner banner";
+    }
+}

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+p{
+    color: white;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    /* text-transform: uppercase; */
+    min-height: 100%;
+}
+
