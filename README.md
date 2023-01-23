@@ -1,8 +1,8 @@
 # Screenshots
 
-![Desktop View ](src/assets/desk.jpg)
-![Tablet View ](src/assets/tab.jpg)
-![mob.jpg](https://postimg.cc/nMQfdbVs)
+<img src=".\src\assets\desk.jpg" alt="">width="500"/>
+<img src=".\src\assets\mob.jpg" alt="">width="500"/>
+<img src=".\src\assets\tab.jpg" alt="">width="500"/>
 
 # KenmarkResponsiver
 
