@@ -1,8 +1,8 @@
 # Screenshots
 
-<img src=".\src\assets\desk.jpg" alt="">width="500"/>
-<img src=".\src\assets\mob.jpg" alt="">width="500"/>
-<img src=".\src\assets\tab.jpg" alt="">width="500"/>
+<img src=".\src\assets\desk.jpg" alt=""/>
+<img src=".\src\assets\mob.jpg" alt=""/>
+<img src=".\src\assets\tab.jpg" alt=""/>
 
 # KenmarkResponsiver
 
