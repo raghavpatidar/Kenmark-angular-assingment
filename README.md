@@ -2,7 +2,7 @@
 
 ![Desktop View ](src/assets/desk.jpg)
 ![Tablet View ](src/assets/tab.jpg)
-![Mobile View ](src/assets/mob.jpg)
+![mob.jpg](https://postimg.cc/nMQfdbVs)
 
 # KenmarkResponsiver
 
